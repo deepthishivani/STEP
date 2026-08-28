@@ -2,9 +2,10 @@
 
 **Today's Work:**
 
-- Completed Week 3 OOP Category A homework assignment
-- Solved F1 to F5
-- Practiced classes and objects, inheritance, object references, null handling, static vs instance members, and composition
+- Completed Week 3 OOP Category A class problems
+- Completed Week 3 OOP Category A assignment problems
+- Solved F1 to F5 in both sets
+- Practiced classes and objects, inheritance, static vs instance members, object references, null safety, and composition
 
 **Next Session Plan:**
 
