@@ -160,3 +160,83 @@ The branch must be created from:
 Workflow:
 
 `develop → feature/session_3`
+
+---
+
+# Week 3 — OOP, Classes and Objects
+
+Branch: `feature/session_3`
+
+## Week 3 Practice Problems — 5/5
+
+Location: `src/main/java/oop/class_problems/`
+
+1. `AttendanceSystem.java`
+2. `FeeAccountDemo.java`
+3. `HostelRoomDemo.java`
+4. `StaticBoundaryDemo.java`
+5. `FeeHostelMiniSystem.java`
+
+All Week 3 practice programs were compiled and tested successfully.
+
+Commit: `3586e83` — Complete Week 3 practice problems
+
+## Week 3 Assignment Problems — 5/5
+
+Location: `src/main/java/oop/assigment_problems/`
+
+1. `LibraryFineSystem.java`
+2. `EmployeeDemo.java`
+3. `ParkingSlotDemo.java`
+4. `LibraryMemberDemo.java`
+5. `HRParkingMiniSystem.java`
+
+All Week 3 assignment programs were compiled and tested successfully.
+
+Commit: `2e56de6` — Complete Week 3 assignment problems
+
+### Week 3 Progress
+
+- Practice: 5/5
+- Assignments: 5/5
+- Total: 10/10
+
+**Week 3 complete.**
+
+---
+
+# Updated Overall Progress
+
+| Week | Topic | Practice | Assignments | Total |
+|------|-------|----------|-------------|-------|
+| Week 1 | Programming Fundamentals | 5/5 | 5/5 | 10/10 |
+| Week 2 | String Handling | 5/5 | 5/5 | 10/10 |
+| Week 3 | OOP, Classes and Objects | 5/5 | 5/5 | 10/10 |
+
+**Overall completed: 30/30 Java problems**
+
+---
+
+# Progress Log — Week 3
+
+## Completed
+
+- Week 1 Programming Fundamentals: 10/10
+- Week 2 String Handling: 10/10
+- Week 3 OOP, Classes and Objects: 10/10
+- Week 3 practice and assignment programs compiled and tested
+- Week 3 pushed to `feature/session_3`
+
+## Next Session
+
+Week 4 coding will be completed on:
+
+`feature/session_4`
+
+The branch must be created from:
+
+`develop`
+
+Workflow:
+
+`develop → feature/session_4`
