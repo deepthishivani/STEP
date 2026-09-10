@@ -240,3 +240,85 @@ The branch must be created from:
 Workflow:
 
 `develop → feature/session_4`
+
+---
+
+# Week 4 — Constructors and Java Keywords
+
+Branch: `feature/session_4`
+
+## Week 4 Practice Problems — 5/5
+
+Location: `src/main/java/constructors_java_keywords/class_problems/`
+
+1. `BusTicketBookingValidator.java`
+2. `FareSplitter.java`
+3. `BusRouteRankingEngine.java`
+4. `BoardingPenaltyCalculator.java`
+5. `FleetReconciliationEngine.java`
+
+All Week 4 practice programs were compiled and tested successfully.
+
+Commit: `44e62c8` — Complete Week 4 practice problems
+
+## Week 4 Assignment Problems — 5/5
+
+Location: `src/main/java/constructors_java_keywords/assigment_problems/`
+
+1. `GhostOrderValidator.java`
+2. `DeliverySlotBooking.java`
+3. `CanteenTrustRanking.java`
+4. `SurgeFeeCalculator.java`
+5. `MultiKitchenReconciliation.java`
+
+All Week 4 assignment programs were compiled and tested successfully.
+
+Commit: `0b0f834` — Complete Week 4 assignment problems
+
+### Week 4 Progress
+
+- Practice: 5/5
+- Assignments: 5/5
+- Total: 10/10
+
+**Week 4 complete.**
+
+---
+
+# Updated Overall Progress
+
+| Week | Topic | Practice | Assignments | Total |
+|------|-------|----------|-------------|-------|
+| Week 1 | Programming Fundamentals | 5/5 | 5/5 | 10/10 |
+| Week 2 | String Handling | 5/5 | 5/5 | 10/10 |
+| Week 3 | OOP, Classes and Objects | 5/5 | 5/5 | 10/10 |
+| Week 4 | Constructors and Java Keywords | 5/5 | 5/5 | 10/10 |
+
+**Overall completed: 40/40 Java problems**
+
+---
+
+# Progress Log — Week 4
+
+## Completed
+
+- Week 1 Programming Fundamentals: 10/10
+- Week 2 String Handling: 10/10
+- Week 3 OOP, Classes and Objects: 10/10
+- Week 4 Constructors and Java Keywords: 10/10
+- Week 4 practice and assignment programs compiled and tested
+- Week 4 pushed to `feature/session_4`
+
+## Next Session
+
+Week 5 coding will be completed on:
+
+`feature/session_5`
+
+The branch must be created from:
+
+`develop`
+
+Workflow:
+
+`develop → feature/session_5`
