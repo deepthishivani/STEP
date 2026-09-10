@@ -1,26 +1,48 @@
-# STEP Semester 3
+# STEP Semester 3 — Java Programming
 
-This repository contains my Java practice and assignment programs completed as part of the STEP Semester 3 coursework.
+Repository containing my STEP Semester 3 Java practice and assignment programs.
 
-## Branch Structure
+## Repository Workflow
 
-- `main` — README and progress documentation
-- `develop` — base Java project structure
-- `feature/session_n` — coding work for each STEP session
+- `main` → README and progress documentation
+- `develop` → base Java project structure
+- `feature/session_n` → practice and assignment programs for each session
 
-Every new feature branch is created from `develop`.
+Each new feature branch is created from `develop`.
 
-Feature branches are not merged back into `develop` or `main`.
+---
+
+# Overall Progress
+
+| Week | Topic | Practice | Assignment | Total |
+|------|-------|----------|------------|-------|
+| Week 1 | Programming Fundamentals | 5/5 | 5/5 | 10/10 |
+| Week 2 | String Handling | 5/5 | 5/5 | 10/10 |
+| Week 3 | Object-Oriented Programming | 5/5 | 5/5 | 10/10 |
+| Week 4 | Constructors and Java Keywords | 5/5 | 5/5 | 10/10 |
+| Week 5 | Access Modifiers, Encapsulation & Object Modeling | 5/5 | 5/5 | 10/10 |
+
+## Total Completed
+
+**Practice Problems: 25/25**
+
+**Assignment Problems: 25/25**
+
+**Overall: 50/50 Java Problems**
 
 ---
 
 # Week 1 — Programming Fundamentals
 
-Branch: `feature/session_1`
+Branch:
 
-## Week 1 Practice Problems — 5/5
+`feature/session_1`
 
-Location: `src/main/java/programming_fundamentals/class_problems/`
+## Practice Problems — 5/5
+
+Location:
+
+`src/main/java/programming_fundamentals/class_problems/`
 
 1. `RockPaperScissors.java`
 2. `PalindromeChecker.java`
@@ -28,13 +50,15 @@ Location: `src/main/java/programming_fundamentals/class_problems/`
 4. `FirstNonRepeatingCharacter.java`
 5. `ReverseCustomerName.java`
 
-All Week 1 practice programs were compiled and tested successfully.
+Commit:
 
-Commit: `f293c71` — Complete Week 1 practice problems
+`f293c71` — Complete Week 1 practice problems
 
-## Week 1 Assignment Problems — 5/5
+## Assignment Problems — 5/5
 
-Location: `src/main/java/programming_fundamentals/assigment_problems/`
+Location:
+
+`src/main/java/programming_fundamentals/assigment_problems/`
 
 1. `ExamHallSeatChecker.java`
 2. `TypingSpeedAccuracyChecker.java`
@@ -42,29 +66,25 @@ Location: `src/main/java/programming_fundamentals/assigment_problems/`
 4. `WarehouseInventoryBalancer.java`
 5. `MovieReviewWordLengthProfiler.java`
 
-All Week 1 assignment programs were compiled and tested successfully.
+Commit:
 
-Commit: `ddafa5f` — Complete Week 1 assignment problems
+`ddafa5f` — Complete Week 1 assignment problems
 
-### Week 1 Progress
-
-- Practice: 5/5
-- Assignments: 5/5
-- Total: 10/10
-
-Week 1 README progress commit: `b1125c0`
-
-**Week 1 complete.**
+**Week 1: 10/10 complete**
 
 ---
 
 # Week 2 — String Handling
 
-Branch: `feature/session_2`
+Branch:
 
-## Week 2 Practice Problems — 5/5
+`feature/session_2`
 
-Location: `src/main/java/string_handling/class_problems/`
+## Practice Problems — 5/5
+
+Location:
+
+`src/main/java/string_handling/class_problems/`
 
 1. `VowelConsonantCounter.java`
 2. `CSVStudentRecordParser.java`
@@ -72,13 +92,15 @@ Location: `src/main/java/string_handling/class_problems/`
 4. `MaskedPhoneNumberFormatter.java`
 5. `BankTransactionReference.java`
 
-All Week 2 practice programs were compiled and tested successfully.
+Commit:
 
-Commit: `f3b2394` — Complete Week 2 practice problems
+`f3b2394` — Complete Week 2 practice problems
 
-## Week 2 Assignment Problems — 5/5
+## Assignment Problems — 5/5
 
-Location: `src/main/java/string_handling/assigment_problems/`
+Location:
+
+`src/main/java/string_handling/assigment_problems/`
 
 1. `ATMPinLengthValidator.java`
 2. `WordReversalEncoder.java`
@@ -86,90 +108,25 @@ Location: `src/main/java/string_handling/assigment_problems/`
 4. `LibraryISBNValidator.java`
 5. `StopWordFrequencyReport.java`
 
-All Week 2 assignment programs were compiled and tested successfully.
+Commit:
 
-Commit: `963c291` — Complete Week 2 assignment problems
+`963c291` — Complete Week 2 assignment problems
 
-### Week 2 Progress
-
-- Practice: 5/5
-- Assignments: 5/5
-- Total: 10/10
-
-**Week 2 complete.**
+**Week 2: 10/10 complete**
 
 ---
 
-# Overall Progress
+# Week 3 — Object-Oriented Programming
 
-| Week | Topic | Practice | Assignments | Total |
-|------|-------|----------|-------------|-------|
-| Week 1 | Programming Fundamentals | 5/5 | 5/5 | 10/10 |
-| Week 2 | String Handling | 5/5 | 5/5 | 10/10 |
-
-**Overall completed: 20/20 Java problems**
-
----
-
-# Java Project Structure
-
-Practice problems are stored in:
-
-`src/main/java/<topic>/class_problems/`
-
-Assignment problems are stored in:
-
-`src/main/java/<topic>/assigment_problems/`
-
-The spelling `assigment_problems` is retained according to the required faculty structure.
-
-Package format:
-
-`package main.java.<topic>.<folder>;`
-
-Java source files are compiled using `javac -d out ...`.
-
-Programs are executed using `java -cp out package.ClassName`.
-
-The generated `out/` directory is not intended to be committed to the repository.
-
----
-
-# Progress Log — 10 September 2026
-
-## Completed
-
-- Week 1 Programming Fundamentals: 10/10
-- Week 2 String Handling: 10/10
-- Week 1 README documentation
-- Week 2 README documentation
-- All completed Java programs compiled and tested
-- Week 1 pushed to `feature/session_1`
-- Week 2 pushed to `feature/session_2`
-
-## Next Session
-
-Week 3 coding will be completed on:
+Branch:
 
 `feature/session_3`
 
-The branch must be created from:
+## Practice Problems — 5/5
 
-`develop`
+Location:
 
-Workflow:
-
-`develop → feature/session_3`
-
----
-
-# Week 3 — OOP, Classes and Objects
-
-Branch: `feature/session_3`
-
-## Week 3 Practice Problems — 5/5
-
-Location: `src/main/java/oop/class_problems/`
+`src/main/java/oop/class_problems/`
 
 1. `AttendanceSystem.java`
 2. `FeeAccountDemo.java`
@@ -177,13 +134,15 @@ Location: `src/main/java/oop/class_problems/`
 4. `StaticBoundaryDemo.java`
 5. `FeeHostelMiniSystem.java`
 
-All Week 3 practice programs were compiled and tested successfully.
+Commit:
 
-Commit: `3586e83` — Complete Week 3 practice problems
+`3586e83` — Complete Week 3 practice problems
 
-## Week 3 Assignment Problems — 5/5
+## Assignment Problems — 5/5
 
-Location: `src/main/java/oop/assigment_problems/`
+Location:
+
+`src/main/java/oop/assigment_problems/`
 
 1. `LibraryFineSystem.java`
 2. `EmployeeDemo.java`
@@ -191,65 +150,25 @@ Location: `src/main/java/oop/assigment_problems/`
 4. `LibraryMemberDemo.java`
 5. `HRParkingMiniSystem.java`
 
-All Week 3 assignment programs were compiled and tested successfully.
+Commit:
 
-Commit: `2e56de6` — Complete Week 3 assignment problems
+`2e56de6` — Complete Week 3 assignment problems
 
-### Week 3 Progress
-
-- Practice: 5/5
-- Assignments: 5/5
-- Total: 10/10
-
-**Week 3 complete.**
-
----
-
-# Updated Overall Progress
-
-| Week | Topic | Practice | Assignments | Total |
-|------|-------|----------|-------------|-------|
-| Week 1 | Programming Fundamentals | 5/5 | 5/5 | 10/10 |
-| Week 2 | String Handling | 5/5 | 5/5 | 10/10 |
-| Week 3 | OOP, Classes and Objects | 5/5 | 5/5 | 10/10 |
-
-**Overall completed: 30/30 Java problems**
-
----
-
-# Progress Log — Week 3
-
-## Completed
-
-- Week 1 Programming Fundamentals: 10/10
-- Week 2 String Handling: 10/10
-- Week 3 OOP, Classes and Objects: 10/10
-- Week 3 practice and assignment programs compiled and tested
-- Week 3 pushed to `feature/session_3`
-
-## Next Session
-
-Week 4 coding will be completed on:
-
-`feature/session_4`
-
-The branch must be created from:
-
-`develop`
-
-Workflow:
-
-`develop → feature/session_4`
+**Week 3: 10/10 complete**
 
 ---
 
 # Week 4 — Constructors and Java Keywords
 
-Branch: `feature/session_4`
+Branch:
 
-## Week 4 Practice Problems — 5/5
+`feature/session_4`
 
-Location: `src/main/java/constructors_java_keywords/class_problems/`
+## Practice Problems — 5/5
+
+Location:
+
+`src/main/java/constructors_java_keywords/class_problems/`
 
 1. `BusTicketBookingValidator.java`
 2. `FareSplitter.java`
@@ -257,13 +176,15 @@ Location: `src/main/java/constructors_java_keywords/class_problems/`
 4. `BoardingPenaltyCalculator.java`
 5. `FleetReconciliationEngine.java`
 
-All Week 4 practice programs were compiled and tested successfully.
+Commit:
 
-Commit: `44e62c8` — Complete Week 4 practice problems
+`44e62c8` — Complete Week 4 practice problems
 
-## Week 4 Assignment Problems — 5/5
+## Assignment Problems — 5/5
 
-Location: `src/main/java/constructors_java_keywords/assigment_problems/`
+Location:
+
+`src/main/java/constructors_java_keywords/assigment_problems/`
 
 1. `GhostOrderValidator.java`
 2. `DeliverySlotBooking.java`
@@ -271,54 +192,145 @@ Location: `src/main/java/constructors_java_keywords/assigment_problems/`
 4. `SurgeFeeCalculator.java`
 5. `MultiKitchenReconciliation.java`
 
-All Week 4 assignment programs were compiled and tested successfully.
+Commit:
 
-Commit: `0b0f834` — Complete Week 4 assignment problems
+`0b0f834` — Complete Week 4 assignment problems
 
-### Week 4 Progress
-
-- Practice: 5/5
-- Assignments: 5/5
-- Total: 10/10
-
-**Week 4 complete.**
+**Week 4: 10/10 complete**
 
 ---
 
-# Updated Overall Progress
+# Week 5 — Access Modifiers, Encapsulation & Object Modeling
 
-| Week | Topic | Practice | Assignments | Total |
-|------|-------|----------|-------------|-------|
-| Week 1 | Programming Fundamentals | 5/5 | 5/5 | 10/10 |
-| Week 2 | String Handling | 5/5 | 5/5 | 10/10 |
-| Week 3 | OOP, Classes and Objects | 5/5 | 5/5 | 10/10 |
-| Week 4 | Constructors and Java Keywords | 5/5 | 5/5 | 10/10 |
-
-**Overall completed: 40/40 Java problems**
-
----
-
-# Progress Log — Week 4
-
-## Completed
-
-- Week 1 Programming Fundamentals: 10/10
-- Week 2 String Handling: 10/10
-- Week 3 OOP, Classes and Objects: 10/10
-- Week 4 Constructors and Java Keywords: 10/10
-- Week 4 practice and assignment programs compiled and tested
-- Week 4 pushed to `feature/session_4`
-
-## Next Session
-
-Week 5 coding will be completed on:
+Branch:
 
 `feature/session_5`
 
-The branch must be created from:
+## Practice Problems — 5/5
 
-`develop`
+Location:
 
-Workflow:
+`src/main/java/access_modifiers_encapsulation_object_modeling/class_problems/`
 
-`develop → feature/session_5`
+1. `FieldVisibilityValidator.java`
+2. `CrossPackageInheritanceReach.java`
+3. `PatientVitals.java`
+4. `PatientProfile.java`
+5. `DischargeLedger.java`
+
+Commit:
+
+`4b8465e` — Complete Week 5 practice problems
+
+## Assignment Problems — 5/5
+
+Location:
+
+`src/main/java/access_modifiers_encapsulation_object_modeling/assigment_problems/`
+
+1. `MembershipFieldReachChecker.java`
+2. `ReferenceDeskSubclassReach.java`
+3. `BookInventory.java`
+4. `LibraryMemberBean.java`
+5. `LoanCirculationLedger.java`
+
+Commit:
+
+`fa033de` — Complete Week 5 assignment problems
+
+**Week 5: 10/10 complete**
+
+---
+
+# Java Concepts Covered
+
+Across Weeks 1–5:
+
+- Variables and primitive data types
+- Conditional statements
+- Loops
+- Arrays
+- Strings
+- String validation
+- Classes and objects
+- Constructors
+- Constructor overloading
+- Constructor chaining with `this(...)`
+- Encapsulation
+- Inheritance
+- Method overriding
+- Polymorphism
+- `instanceof`
+- Static members and static blocks
+- `final` fields and methods
+- Access modifiers
+  - `private`
+  - default
+  - `protected`
+  - `public`
+- JavaBean getter/setter conventions
+- Defensive copying
+- Immutable object design
+- Null-safe batch processing
+- Manual sorting and comparison logic
+
+---
+
+# Project Structure
+
+```text
+src/
+└── main/
+    └── java/
+        ├── programming_fundamentals/
+        │   ├── class_problems/
+        │   └── assigment_problems/
+        │
+        ├── string_handling/
+        │   ├── class_problems/
+        │   └── assigment_problems/
+        │
+        ├── oop/
+        │   ├── class_problems/
+        │   └── assigment_problems/
+        │
+        ├── constructors_java_keywords/
+        │   ├── class_problems/
+        │   └── assigment_problems/
+        │
+        └── access_modifiers_encapsulation_object_modeling/
+            ├── class_problems/
+            └── assigment_problems/
+```
+
+---
+
+# Progress Log
+
+- Week 1 — Completed 10/10
+- Week 2 — Completed 10/10
+- Week 3 — Completed 10/10
+- Week 4 — Completed 10/10
+- Week 5 — Completed 10/10
+
+## Current Progress
+
+**50/50 Java problems completed**
+
+All completed programs have been compiled and tested before being pushed to their respective feature branches.
+
+---
+
+# Git Workflow
+
+For every new session:
+
+```text
+develop
+   ↓
+feature/session_n
+```
+
+Coding work stays on the session feature branch.
+
+README and progress documentation are maintained on `main`.
