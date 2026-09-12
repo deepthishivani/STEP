@@ -21,14 +21,15 @@ Each new feature branch is created from `develop`.
 | Week 3 | Object-Oriented Programming | 5/5 | 5/5 | 10/10 |
 | Week 4 | Constructors and Java Keywords | 5/5 | 5/5 | 10/10 |
 | Week 5 | Access Modifiers, Encapsulation & Object Modeling | 5/5 | 5/5 | 10/10 |
+| Week 6 | Inheritance & Polymorphism | 5/5 | 5/5 | 10/10 |
 
 ## Total Completed
 
-**Practice Problems: 25/25**
+**Practice Problems: 30/30**
 
-**Assignment Problems: 25/25**
+**Assignment Problems: 30/30**
 
-**Overall: 50/50 Java Problems**
+**Overall: 60/60 Java Problems**
 
 ---
 
@@ -242,9 +243,52 @@ Commit:
 
 ---
 
+
+# Week 6 — Inheritance & Polymorphism
+
+Branch:
+
+`feature/session_6`
+
+## Practice Problems — 5/5
+
+Location:
+
+`src/main/java/inheritance_polymorphism/class_problems/`
+
+1. `Problem1.java`
+2. `Problem2.java`
+3. `Problem3.java`
+4. `Problem4.java`
+5. `Problem5.java`
+
+Commit:
+
+`6e20dd0` — Complete Week 6 practice problems
+
+## Assignment Problems — 5/5
+
+Location:
+
+`src/main/java/inheritance_polymorphism/assigment_problems/`
+
+1. `Problem1.java`
+2. `Problem2.java`
+3. `Problem3.java`
+4. `Problem4.java`
+5. `Problem5.java`
+
+Commit:
+
+`1a625b2` — Complete Week 6 assignment problems
+
+**Week 6: 10/10 complete**
+
+---
+
 # Java Concepts Covered
 
-Across Weeks 1–5:
+Across Weeks 1–6:
 
 - Variables and primitive data types
 - Conditional statements
@@ -298,7 +342,11 @@ src/
         │   ├── class_problems/
         │   └── assigment_problems/
         │
-        └── access_modifiers_encapsulation_object_modeling/
+        ├── access_modifiers_encapsulation_object_modeling/
+        │   ├── class_problems/
+        │   └── assigment_problems/
+        │
+        └── inheritance_polymorphism/
             ├── class_problems/
             └── assigment_problems/
 ```
@@ -312,10 +360,11 @@ src/
 - Week 3 — Completed 10/10
 - Week 4 — Completed 10/10
 - Week 5 — Completed 10/10
+- Week 6 — Completed 10/10
 
 ## Current Progress
 
-**50/50 Java problems completed**
+**60/60 Java problems completed**
 
 All completed programs have been compiled and tested before being pushed to their respective feature branches.
 
