@@ -1,7 +1,9 @@
+package abstraction_interface.assignment_problems;
+
 import java.math.*;
 import java.util.*;
 
-public class CanteenSmartCard {
+public class Problem5 {
     interface PricingPlan {
         long price(long paise);
     }

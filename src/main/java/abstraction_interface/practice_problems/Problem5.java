@@ -1,6 +1,8 @@
+package abstraction_interface.practice_problems;
+
 import java.util.*;
 
-public class FoodOrderSystem {
+public class Problem5 {
     interface PaymentMethod {
         boolean pay(long cents);
         String name();

@@ -1,6 +1,8 @@
+package abstraction_interface.practice_problems;
+
 import java.util.*;
 
-public class OnlineExamination {
+public class Problem1 {
     interface Question {
         boolean correct(String answer);
     }

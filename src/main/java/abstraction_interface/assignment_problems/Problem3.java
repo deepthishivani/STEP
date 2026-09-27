@@ -1,6 +1,8 @@
+package abstraction_interface.assignment_problems;
+
 import java.util.*;
 
-public class SmartLab {
+public class Problem3 {
     interface Capability {
         String key();
         void apply(String device, int value);

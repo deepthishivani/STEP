@@ -1,8 +1,10 @@
+package abstraction_interface.practice_problems;
+
 import java.time.*;
 import java.time.temporal.ChronoUnit;
 import java.util.*;
 
-public class EmployeeLeave {
+public class Problem4 {
     enum Status { Pending, Approved, Rejected }
 
     static abstract class Employee {

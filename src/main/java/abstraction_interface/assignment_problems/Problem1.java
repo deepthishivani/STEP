@@ -1,6 +1,8 @@
+package abstraction_interface.assignment_problems;
+
 import java.util.*;
 
-public class CodeSprint {
+public class Problem1 {
     interface Track {
         String name();
         double calculate(Score score);

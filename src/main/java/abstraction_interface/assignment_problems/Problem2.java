@@ -1,6 +1,8 @@
+package abstraction_interface.assignment_problems;
+
 import java.util.*;
 
-public class SwiftShip {
+public class Problem2 {
     interface ShippingType {
         String name();
         double charge(double kg);

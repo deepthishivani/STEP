@@ -1,6 +1,8 @@
+package abstraction_interface.practice_problems;
+
 import java.util.*;
 
-public class VehicleRental {
+public class Problem2 {
     static class Customer {
         private final String name;
         Customer(String name) { this.name = name; }

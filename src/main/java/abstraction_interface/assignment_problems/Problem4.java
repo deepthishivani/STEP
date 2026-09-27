@@ -1,6 +1,8 @@
+package abstraction_interface.assignment_problems;
+
 import java.util.*;
 
-public class ElectiveSeatRush {
+public class Problem4 {
     interface CreditPolicy {
         int limit();
         String name();
